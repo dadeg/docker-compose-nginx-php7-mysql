@@ -1,0 +1,24 @@
+{
+    "name": "webapp/webapp",
+    "description": "webapp",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "MyCustomNamespace\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dan DeGreef",
+            "email": "dan@website.com"
+        }
+    ],
+    "config": {
+    "preferred-install": "dist",
+    "platform": {
+        "php": "7.0"
+    }
+}
+}
