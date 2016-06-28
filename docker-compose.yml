@@ -1,9 +1,9 @@
-receiver:
+web:
   build: .
   volumes:
     # This is a link from your docker-host where your project lives.
     # If you are on a mac/windows, it will need to be mapped properly to the docker VM
-    - /home/core/projects/webapp:/data/www
+    - /projects/webapp:/data/www
   ports:
     - 80:80
   environment:
