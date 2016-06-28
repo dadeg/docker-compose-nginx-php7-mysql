@@ -6,6 +6,15 @@ web:
     - /projects/webapp:/data/www
   ports:
     - 80:80
+  links:
+    - mysql
+  environment:
+    MYSQL_DATABASE: website
+    MYSQL_USER: web
+    MYSQL_PASSWORD: webwebwebweb
+
+mysql:
+  image: mysql:5.7
   environment:
     MYSQL_ROOT_PASSWORD: root
     MYSQL_DATABASE: website
