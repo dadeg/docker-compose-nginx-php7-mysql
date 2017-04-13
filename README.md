@@ -32,7 +32,7 @@ DOCKER COMPOSE
 
 start the web app:
 
-`docker-compose up -d webapp`
+`docker-compose up -d web`
 
 stop the server:
 
