@@ -29,7 +29,6 @@ Install dependencies through composer
 
 DOCKER COMPOSE
 =========
-this docker-compose file is linked to the user-admin mysql instance so it must be running too.
 
 start the web app:
 
